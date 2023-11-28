@@ -1,6 +1,6 @@
 name: Build backoffice image
 env:
-  IMAGE_NAME: {{cookiecutter.name}}/{{cookiecutter.name}}_f
+  IMAGE_NAME: {{cookiecutter.project_name}}/{{cookiecutter.project_name}}_f
   IMAGE_TAG: latest
   #CONTEXT_SUBDIR: mumble_bo 
   REGISTRY_HOST: registry.mumble.cloud
